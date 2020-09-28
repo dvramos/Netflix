@@ -18,25 +18,34 @@ body{
 }
 
 header .container{
+    margin-right: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     
+    
 }
 
 header .logo{
+    width: 130px;
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
-    
+        
 }
+.menulogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menulogo nav {
+    margin-left: 15px;
+  }
 
 header nav a{
     text-decoration: none;
     color: #FFF;
     margin-right: 10px;
+
     
 }
 
@@ -53,6 +62,11 @@ header nav i{
     
 }
 
+.login{
+    color: #ffff;
+    margin-left: 15px;
+}
+
 
 
 /*filme principal*/
@@ -60,7 +74,8 @@ header nav i{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa_stranger.jpg');
     height: 600px;
-    max-width: 1200px;
+    
+    
     background-size: cover;
     display: flex;
     flex-direction: column;
